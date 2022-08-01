@@ -1,0 +1,49 @@
+
+@import './core/_base-dir';
+
+@import './pages/pages-dir.scss';
+
+@import './components/components-dir.scss';
+
+.app-body {
+    min-height: 35vh;
+    margin-top: 150px;
+}
+
+*,
+*::after, 
+*::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: content-box;
+    font-family: var(--font-stack);
+    color: var(--body-text-color);
+}
+
+p {
+    color: var(--body-text-color);
+}
+
+.bg-theme {
+    background: var(--primary-color);
+}
+
+.bg-secondary-theme {
+    background: var(--secondary-color);
+}
+
+.text-theme-primary {
+    color: var(--primary-color);
+}
+
+.comment-box {
+    padding: 15px 35px;
+    background-color: #f0f0f0;
+}

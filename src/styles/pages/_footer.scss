@@ -1,0 +1,14 @@
+footer {
+    height: 13rem;
+    padding: 1.5rem;
+    background-color: var(--navbar-footer-color);
+    // margin-top: 85vh                ;
+    .nav-link {
+        color: var(--primary-color);
+    }
+
+    .footer-logo {
+        font-size: 1.2rem;
+    }
+}
+

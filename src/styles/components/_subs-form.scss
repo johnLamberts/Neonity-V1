@@ -1,0 +1,31 @@
+div.card.card-sub {
+    max-width: 1200px;
+    background-color: var(--secondary-color);
+
+    .form-inline {
+        display: flex;
+
+        .form-group {
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+input[type="text"], input[type="email"] {
+    height: 6rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    width: 100%;
+    outline: none;
+}
+
+button.btn-sub {
+    height: 50px;
+    width: 15rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
